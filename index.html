@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- jquery -->
+    <script src="./js/jquery.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header-start -->
+    <header>
+      <div class="desktop-nav">
+        <div class="wrapper">
+          <div class="top-sec">
+            <div class="stay-connected">
+              <h3>Stay Connected</h3>
+              <div class="icons">
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-linkedin"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-facebook"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-twitter"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-instagram"></i></div
+                ></a>
+              </div>
+            </div>
+            <div class="logo">
+              <a href="">
+                <img src="images/logo/logo.png" alt="" style="width:70px"/>
+              </a>
+            </div>
+            <div class="login">
+              <a href="login.html">
+                <button>Login</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-sec">
+          <div class="wrapper">
+            <ul class="nav">
+              <a href="index.html">
+                <li>Home</li>
+              </a>
+              <a href="about-us.html">
+                <li>About</li>
+              </a>
+              <a href="service.html">
+                <li>Services</li>
+              </a>
+              
+              <li class="drop-down">
+                Quick Links
+                <i class="fas fa-chevron-down"></i>
+                <ul class="drop">
+                  <a href="downloads.html">
+                    <li>Downloads</li>
+                  </a>
+                  <a href="blog.html">
+                    <li>Blog</li>
+                  </a>
+                  <a href="contact.html">
+                    <li>Contact</li>
+                  </a>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-header">
+        <div class="wrapper">
+          <div class="logo" style="margin-top: 20px;">
+            <a href="">
+              <img src="images/logo/logo.png" alt="" style="width:100px"/>
+            </a>
+          </div>
+          <div class="side-nav-btn">
+            <div class="bars"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header-end -->
+
+    <div class="side-nav">
+      <div class="side-nav-logo">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo/logo.png" alt="" style="width:50px"/>
+          </a>
+        </div>
+        <div class="side-nav-close-btn">
+          <img src="./images/icons/close_big_light.svg" alt="" />
+        </div>
+      </div>
+
+      <ul class="side-nav-bar">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="about-us.html">
+          <li>About</li>
+        </a>
+
+        <a href="service.html">
+          <li>Services</li>
+        </a>
+
+        <li class="side-nav-drop-btn">
+          <span>Quick Links <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="downloads.html">
+              <li>Downloads</li>
+            </a>
+            <a href="blog.html">
+              <li>Blog</li>
+            </a>
+
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </li>
+
+        <a href="login.html">
+          <li>Login</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="background">
+      <img class="cursor-close" src="./images/icons/shadow-close.svg" alt="" />
+    </div>
+    <!-- enquiry-form-popup-start -->
+    <div class="enquiry-form-popup">
+      <div class="close-form">
+        <img src="./images/icons/close_big.svg" alt="" />
+      </div>
+      <div class="title">
+        <h3>Enquiry</h3>
+      </div>
+      <form action="">
+        <div class="group">
+          <label for="name">First Name *</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div class="group">
+          <label for="Number">Mobile Number *</label>
+          <input type="number" id="Number" required />
+        </div>
+
+        <div class="group">
+          <label for="Faculty">Faculty *</label>
+          <select name="" id="Faculty">
+            <option value="bba">BBA</option>
+            <option value="mba">MBA</option>
+            <option value="bscit">BScIT</option>
+            <option value="mscit">MScIT</option>
+          </select>
+        </div>
+
+        <div class="group">
+          <label for="name">Email</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div class="group">
+          <label for="message">Message</label>
+          <textarea name="" id=""></textarea>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+    <!-- enquiry-form-popup-end -->
+
+    <!-- banner-start -->
+    <div class="banner">
+      <div class="enquiry" id="enquiry">
+        <button>Enquiry</button>
+      </div>
+      
+      <div class="side-email">
+        <div class="icon">
+          <img src="./images/icons/mail.svg" alt="" />
+        </div>
+        <span> info@example.edu </span>
+      </div>
+      <div class="side-call">
+        <div class="icon">
+          <img src="./images/icons/phone.svg" alt="" />
+        </div>
+        <span>01-5244556, 01-52406445</span>
+      </div>
+
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide"
+            style="background-image: url(./images/img/banner4.jpg)"
+          >
+            <div class="wrapper">
+              <div class="content">
+                <h4>WELCOME TO SCHOOL</h4>
+                <h1>Best Online Education Expertise</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quae saepe cupiditate eligendi cum sapiente fuga quidem harum, praesentium modi.
+                </p>
+                <a href="#" class="button">
+                  <button>View Cources</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide"
+            style="background-image: url(./images/img/banner2.jpg)"
+          >
+            <div class="wrapper">
+              <div class="content">
+                <h4>WELCOME TO SCHOOL</h4>
+                <h1>Best Online Education Expertise</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quae saepe cupiditate eligendi cum sapiente fuga quidem harum, praesentium modi.
+                </p>
+                <a href="#" class="button">
+                  <button>View Cources</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner-end -->
+
+    <!-- about-start -->
+    <section>
+      <div class="wrapper">
+        <div class="about">
+          <div class="image">
+            <div
+              class="img"
+              style="background-image: url(./images/img/about.png)"
+            ></div>
+          </div>
+          <div class="details">
+            <h1 class="name">WELCOME TO SCHOOL</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non beatae, unde maiores praesentium, officiis ullam dolore exercitationem quo repellat esse quibusdam, sunt recusandae porro fugiat distinctio velit id? Voluptatem, placeat aspernatur laudantium rerum voluptates voluptas temporibus eligendi distinctio nemo voluptate modi itaque? Animi, necessitatibus deserunt delectus dicta impedit tempora porro.
+            </p>
+            <a href="#">
+              <button>Learn More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-end -->
+
+    <!-- cources-start -->
+    <section class="linear-bg">
+      <div class="wrapper">
+        <div class="cources">
+          <div class="item">
+            <div class="icon">
+              <img src="./images/icons/graduate.svg" alt="icon" />
+            </div>
+            <h4 class="name">Academic Programs</h4>
+          </div>
+
+          <div class="item">
+            <div class="icon">
+              <img src="./images/icons/library.svg" alt="icon" />
+            </div>
+            <h4 class="name">Library/e-library</h4>
+          </div>
+
+          <div class="item">
+            <div class="icon">
+              <img src="./images/icons/graduate2.svg" alt="icon" />
+            </div>
+            <h4 class="name">Scholarship</h4>
+          </div>
+
+          <div class="item">
+            <div class="icon">
+              <img src="./images/icons/scholarship.svg" alt="icon" />
+            </div>
+            <h4 class="name">Alumni Directory</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cources-end -->
+
+    <!-- Our Popular Courses-start -->
+    <section>
+      <div class="wrapper">
+        <div class="our-popular-courses">
+          <div class="title">
+            <h4>Our Popular Courses</h4>
+            <h2>Top Cources</h2>
+          </div>
+
+          <div class="list">
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/course1.png)"
+                ></div>
+              </div>
+              <h3 class="name">It & Software</h3>
+              <h5>Over 800 Courses</h5>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/course2.png)"
+                ></div>
+              </div>
+              <h4 class="name">Marketing</h4>
+              <h5>Over 800 Courses</h5>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/course3.png)"
+                ></div>
+              </div>
+              <h4 class="name">Business</h4>
+              <h5>Over 800 Courses</h5>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/course4.png)"
+                ></div>
+              </div>
+              <h4 class="name">3D + Animation</h4>
+              <h5>Over 800 Courses</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Popular Courses-end -->
+
+    <!-- facilities-start -->
+    <section class="bg">
+      <div class="wrapper">
+        <div class="facilitiess">
+          <div class="title">
+            <h4>Other fACILIties</h4>
+            <h2>fACILIties</h2>
+          </div>
+
+          <div class="list">
+            <div class="item">
+              <div class="details">
+                <div class="icon">
+                  <img
+                    class="dark-icon"
+                    src="./images/icons/festival-dark.svg"
+                    alt=""
+                  />
+                  <img
+                    src="./images/icons/festival.svg"
+                    class="light-icon"
+                    alt=""
+                  />
+                </div>
+                <h3 class="name">Fest</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, iste
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="details">
+                <div class="icon">
+                  <img
+                    class="dark-icon"
+                    src="./images/icons/sport-dark.svg"
+                    alt=""
+                  />
+                  <img
+                    src="./images/icons/sport.svg"
+                    class="light-icon"
+                    alt=""
+                  />
+                </div>
+                <h3 class="name">Sports</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, iste
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="details">
+                <div class="icon">
+                  <img
+                    class="dark-icon"
+                    src="./images/icons/bus-dark.svg"
+                    alt=""
+                  />
+                  <img src="./images/icons/bus.svg" class="light-icon" alt="" />
+                </div>
+                <h3 class="name">Bus</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, iste
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="details">
+                <div class="icon">
+                  <img
+                    class="dark-icon"
+                    src="./images/icons/microscope-dark.svg"
+                    alt=""
+                  />
+                  <img
+                    src="./images/icons/microscope.svg"
+                    class="light-icon"
+                    alt=""
+                  />
+                </div>
+                <h3 class="name">Lab</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, iste
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="details">
+                <div class="icon">
+                  <img
+                    class="dark-icon"
+                    src="./images/icons/canteen-dark.svg"
+                    alt=""
+                  />
+                  <img
+                    src="./images/icons/canteen.svg"
+                    class="light-icon"
+                    alt=""
+                  />
+                </div>
+                <h3 class="name">Canteen</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, iste
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="details">
+                <div class="icon">
+                  <img
+                    class="dark-icon"
+                    src="./images/icons/festival-dark.svg"
+                    alt=""
+                  />
+                  <img
+                    src="./images/icons/festival.svg"
+                    class="light-icon"
+                    alt=""
+                  />
+                </div>
+                <h3 class="name">Fair</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Culpa, iste
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- facilities-end -->
+
+    <!-- news-events-start -->
+    <section>
+      <div class="wrapper">
+        <div class="news-events">
+          <div class="title">
+            <h4>News & Events</h4>
+            <h2>Recent News & Events</h2>
+          </div>
+
+          <ul class="switch-btn">
+            <li class="active" data-filters="data-news">News</li>
+            <li data-filters="data-event">Events</li>
+          </ul>
+
+          <div class="list">
+            <div class="item itemBox data-news">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/news.png)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="date-time">
+                  <div class="date">
+                    <div class="day">20</div>
+                    <div class="month">dec</div>
+                  </div>
+                  <div class="line"></div>
+                  <div class="time">
+                    <div class="hrs"><i class="fas fa-clock"></i> 09:00 PM</div>
+                    <div class="loc">
+                      <i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal
+                    </div>
+                  </div>
+                </div>
+                <h4 class="name">Lorem ipsum dolor sit amet</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti velit eveniet, quos quo eum placeat est consequatur tempore vero hic.
+                </p>
+                <a href="#">
+                  <button>Read More</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="item itemBox data-news">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/news2.png)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="date-time">
+                  <div class="date">
+                    <div class="day">20</div>
+                    <div class="month">dec</div>
+                  </div>
+                  <div class="line"></div>
+                  <div class="time">
+                    <div class="hrs"><i class="fas fa-clock"></i> 09:00 PM</div>
+                    <div class="loc">
+                      <i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal
+                    </div>
+                  </div>
+                </div>
+                <h4 class="name">Lorem ipsum dolor sit amet</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti velit eveniet, quos quo eum placeat est consequatur tempore vero hic.
+                </p>
+                <a href="#">
+                  <button>Read More</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="item itemBox data-event">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/banner1.jpg)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="date-time">
+                  <div class="date">
+                    <div class="day">20</div>
+                    <div class="month">dec</div>
+                  </div>
+                  <div class="line"></div>
+                  <div class="time">
+                    <div class="hrs"><i class="fas fa-clock"></i> 09:00 PM</div>
+                    <div class="loc">
+                      <i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal
+                    </div>
+                  </div>
+                </div>
+                <h4 class="name">Lorem ipsum dolor sit amet</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti velit eveniet, quos quo eum placeat est consequatur tempore vero hic.
+                </p>
+                <a href="#">
+                  <button>Read More</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="item itemBox data-event">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/about.png)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="date-time">
+                  <div class="date">
+                    <div class="day">20</div>
+                    <div class="month">dec</div>
+                  </div>
+                  <div class="line"></div>
+                  <div class="time">
+                    <div class="hrs"><i class="fas fa-clock"></i> 09:00 PM</div>
+                    <div class="loc">
+                      <i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal
+                    </div>
+                  </div>
+                </div>
+                <h4 class="name">Lorem ipsum dolor sit amet</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti velit eveniet, quos quo eum placeat est consequatur tempore vero hic.
+                </p>
+                <a href="#">
+                  <button>Read More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- news-events-end -->
+
+    <!-- testimonials-start -->
+    <section class="bg">
+      <div class="wrapper">
+        <div class="testimonials">
+          <div class="title">
+            <h4>TESTIMONIALS</h4>
+            <h2>Our Successful Students</h2>
+          </div>
+
+          <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="item">
+                  <div
+                    class="image"
+                    style="background-image: url(./images/img/profile1.jpeg)"
+                  ></div>
+                  <div class="details">
+                    <h3 class="name">Naruto Uzumaki</h3>
+                    <h4>Management</h4>
+
+                    <div class="desc">
+                      <div class="quet-start">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                      </p>
+                      <div class="quet-end">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="item">
+                  <div
+                    class="image"
+                    style="background-image: url(./images/img/profile2.jpeg)"
+                  ></div>
+                  <div class="details">
+                    <h3 class="name">Naruto Uzumaki</h3>
+                    <h4>Management</h4>
+
+                    <div class="desc">
+                      <div class="quet-start">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                      </p>
+                      <div class="quet-end">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="item">
+                  <div
+                    class="image"
+                    style="background-image: url(./images/img/profile3.jpeg)"
+                  ></div>
+                  <div class="details">
+                    <h3 class="name">Naruto Uzumaki</h3>
+                    <h4>Management</h4>
+
+                    <div class="desc">
+                      <div class="quet-start">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                      </p>
+                      <div class="quet-end">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="item">
+                  <div
+                    class="image"
+                    style="background-image: url(./images/img/profile.jpeg)"
+                  ></div>
+                  <div class="details">
+                    <h3 class="name">Naruto Uzumaki</h3>
+                    <h4>Management</h4>
+
+                    <div class="desc">
+                      <div class="quet-start">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                      </p>
+                      <div class="quet-end">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="item">
+                  <div
+                    class="image"
+                    style="background-image: url(./images/img/profile4.jpeg)"
+                  ></div>
+                  <div class="details">
+                    <h3 class="name">Naruto Uzumaki</h3>
+                    <h4>Management</h4>
+
+                    <div class="desc">
+                      <div class="quet-start">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                      </p>
+                      <div class="quet-end">
+                        <img
+                          src="./images/icons/bx_bxs-quote-alt-left.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials-end -->
+
+    <!-- gallery-start -->
+    <section>
+      <div class="gallery">
+        <div class="title">
+          <h4>GALLERY</h4>
+          <h2>SCHOOL AT A GLANCE</h2>
+        </div>
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="image"
+                style="background-image: url(./images/img/gallery.jpeg)"
+              ></div>
+
+              <div id="galleryBtn" class="name">Food Fest</div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="image"
+                style="background-image: url(./images/img/gallery2.jpeg)"
+              ></div>
+
+              <div id="galleryBtn" class="name">Graduation</div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="image"
+                style="background-image: url(./images/img/gallery3.jpeg)"
+              ></div>
+
+              <div id="galleryBtn" class="name">Sports</div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="image"
+                style="background-image: url(./images/img/gallery4.jpeg)"
+              ></div>
+
+              <div id="galleryBtn" class="name">Puja</div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="image"
+                style="background-image: url(./images/img/gallery6.jpeg)"
+              ></div>
+
+              <div id="galleryBtn" class="name">Dance</div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery-end -->
+
+    <!-- our-location-start -->
+    <section class="bg">
+      <div class="our-location">
+        <div class="title">
+          <h4>Map</h4>
+          <h2>Our Location</h2>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.304826897088!2d0.0624897764016573!3d51.507623371813345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a89bd79632e9%3A0xd2a1ee734c6226d0!2sUniversity%20of%20East%20London!5e0!3m2!1sen!2suk!4v1682284853435!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- our-location-end -->
+
+    <!-- partner-start -->
+    <div class="wrapper">
+      <div class="partner">
+        <div class="title">
+          <h4>Our Partners</h4>
+          <h2>Our internship and placement partners</h2>
+        </div>
+
+        <div class="client-logo">
+          <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="image">
+                  <img src="./images/img/partners.png" alt="" />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="image">
+                  <img src="./images/img/partners2.png" alt="" />
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="image">
+                  <img src="./images/img/partners3.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partner-end -->
+
+    <div class="gallery-popup">
+      <div class="gallery-bg"></div>
+      <div class="close-gallery-btn">
+        <img src="./images/icons/close_big_light.svg" alt="" />
+      </div>
+      <div class="title">Food Fest</div>
+      <div class="gallery-images">
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide"
+              style="background-image: url(./images/img/gallery.jpeg)"
+            ></div>
+            <div
+              class="swiper-slide"
+              style="background-image: url(./images/img/gallery2.jpeg)"
+            ></div>
+            <div
+              class="swiper-slide"
+              style="background-image: url(./images/img/gallery3.jpeg)"
+            ></div>
+            <div
+              class="swiper-slide"
+              style="background-image: url(./images/img/gallery4.jpeg)"
+            ></div>
+            <div
+              class="swiper-slide"
+              style="background-image: url(./images/img/gallery5.jpeg)"
+            ></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer-start -->
+    <footer>
+      <div class="wrapper">
+        <div class="list">
+          <div class="item">
+            <h2>CONTACT</h2>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> London, Kathmandu 44600
+              </li>
+              <li><i class="fas fa-phone-alt"></i> 01-524434406, 01-52485406</li>
+              <li><i class="fas fa-envelope"></i> info@school.edu</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Quick Links</h2>
+            <ul>
+              <a href="about-us.html">
+                <li>About Us</li>
+              </a>
+              <a href="blog.html">
+                <li>Blog</li>
+              </a>
+              <a href="contact.html">
+                <li>Contact</li>
+              </a>
+              <a href="service.html">
+                <li>Services</li>
+              </a>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Resources</h2>
+            <ul>
+              <li>Nanodegree Plus</li>
+              <li>Veterans</li>
+              <li>Georgia</li>
+              <li>Self-Driving Car</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Newsletter</h2>
+            <div class="details">
+              <p>You can trust us. we only send promo offers,</p>
+              <div class="group">
+                <form action="">
+                  <input
+                    type="email"
+                    placeholder="Your Email Address"
+                    required
+                  />
+                  <button>
+                    <img src="./images/icons/send-button.svg" alt="" />
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© 2023</div>
+      <div class="copyright">Developed by Pankaj Kushwaha.</div>
+    </footer>
+    <!-- footer-end -->
+
+    <!-- mobile-navigate-btns-start -->
+    <div class="mobile-navigate-btns">
+      <div class="icon">
+        <a href="index.html">
+          <img src="./images/icons/home.svg" alt="Home" />
+        </a>
+      </div>
+
+      <div class="icon" id="admission-btn">
+        <img src="./images/icons/admission.svg" alt="Admission" />
+      </div>
+
+      <div class="icon" id="enquiry">
+        <img
+          src="./images/icons/speech-bubble-with-question-mark.svg"
+          alt="Enquiry"
+        />
+      </div>
+    </div>
+    <!-- mobile-navigate-btns-end -->
+
+    <!-- js -->
+    <script src="./js/nav.js"></script>
+    <script src="./js/enquiry.js"></script>
+    <script src="./js/gallery.js"></script>
+
+    <!-- swiper -->
+    <script src="./js/swiper.min.js"></script>
+    <script>
+      // banner
+      var swiper = new Swiper(".banner .mySwiper", {
+        autoplay: {
+          delay: 8000,
+        },
+      });
+
+      // testimonials
+      var swiper = new Swiper(".testimonials .mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1150: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+
+      // gallery
+      var swiper = new Swiper(".gallery .mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        },
+      });
+
+      // partner
+      var swiper = new Swiper(".partner .mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+
+        autoplay: {
+          delay: 3000,
+        },
+
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+
+      // gallery-popup
+      var swiper = new Swiper(".gallery-popup .mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
+
+    <script>
+      // news-events
+      $(document).ready(function () {
+        $(".itemBox").not(".data-news").hide("1000");
+      });
+
+      $(document).ready(function () {
+        $(".news-events ul li").click(function () {
+          const value = $(this).attr("data-filters");
+          $(".itemBox")
+            .not("." + value)
+            .hide("1000");
+          $(".itemBox")
+            .filter("." + value)
+            .show("1000");
+        });
+
+        $(".news-events ul li").click(function () {
+          $(this).addClass("active").siblings().removeClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>

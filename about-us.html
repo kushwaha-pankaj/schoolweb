@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- jquery -->
+    <script src="./js/jquery.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header-start -->
+    <header>
+      <div class="desktop-nav">
+        <div class="wrapper">
+          <div class="top-sec">
+            <div class="stay-connected">
+              <h3>Stay Connected</h3>
+              <div class="icons">
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-linkedin"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-facebook"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-twitter"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-instagram"></i></div
+                ></a>
+              </div>
+            </div>
+            <div class="logo">
+              <a href="">
+                <img src="images/logo/logo.png" alt="" style="width:70px"/>
+              </a>
+            </div>
+            <div class="login">
+              <a href="login.html">
+                <button>Login</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-sec">
+          <div class="wrapper">
+            <ul class="nav">
+              <a href="index.html">
+                <li>Home</li>
+              </a>
+              <a href="about-us.html">
+                <li>About</li>
+              </a>
+              <a href="service.html">
+                <li>Services</li>
+              </a>
+              
+              <li class="drop-down">
+                Quick Links
+                <i class="fas fa-chevron-down"></i>
+                <ul class="drop">
+                  <a href="downloads.html">
+                    <li>Downloads</li>
+                  </a>
+                  <a href="blog.html">
+                    <li>Blog</li>
+                  </a>
+                  <a href="contact.html">
+                    <li>Contact</li>
+                  </a>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-header">
+        <div class="wrapper">
+          <div class="logo" style="margin-top: 20px;">
+            <a href="">
+              <img src="images/logo/logo.png" alt="" style="width:100px"/>
+            </a>
+          </div>
+          <div class="side-nav-btn">
+            <div class="bars"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header-end -->
+
+    <div class="side-nav">
+      <div class="side-nav-logo">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo/logo.png" alt="" style="width:50px"/>
+          </a>
+        </div>
+        <div class="side-nav-close-btn">
+          <img src="./images/icons/close_big_light.svg" alt="" />
+        </div>
+      </div>
+
+      <ul class="side-nav-bar">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="about-us.html">
+          <li>About</li>
+        </a>
+
+        <a href="service.html">
+          <li>Services</li>
+        </a>
+
+        <li class="side-nav-drop-btn">
+          <span>Quick Links <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="downloads.html">
+              <li>Downloads</li>
+            </a>
+            <a href="blog.html">
+              <li>Blog</li>
+            </a>
+
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </li>
+
+        <a href="login.html">
+          <li>Login</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="background">
+      <img class="cursor-close" src="./images/icons/shadow-close.svg" alt="" />
+    </div>
+    <!-- enquiry-form-popup-start -->
+    <div class="enquiry-form-popup">
+      <div class="close-form">
+        <img src="./images/icons/close_big.svg" alt="" />
+      </div>
+      <div class="title">
+        <h3>Enquiry</h3>
+      </div>
+      <form action="">
+        <div class="group">
+          <label for="name">First Name *</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div class="group">
+          <label for="Number">Mobile Number *</label>
+          <input type="number" id="Number" required />
+        </div>
+
+        <div class="group">
+          <label for="Faculty">Faculty *</label>
+          <select name="" id="Faculty">
+            <option value="bba">BBA</option>
+            <option value="mba">MBA</option>
+            <option value="bscit">BScIT</option>
+            <option value="mscit">MScIT</option>
+          </select>
+        </div>
+
+        <div class="group">
+          <label for="name">Email</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div class="group">
+          <label for="message">Message</label>
+          <textarea name="" id=""></textarea>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+    <!-- enquiry-form-popup-end -->
+
+    <!-- page-banner-start -->
+    <div
+      class="page-banner"
+      style="background-image: url(./images/img/page-banner.jpeg)"
+    >
+      <div class="enquiry">
+        <button>Enquiry</button>
+      </div>
+      <div class="side-email">
+        <div class="icon">
+          <img src="./images/icons/mail.svg" alt="" />
+        </div>
+        <span> info@example.edu.np </span>
+      </div>
+      <div class="side-call">
+        <div class="icon">
+          <img src="./images/icons/phone.svg" alt="" />
+        </div>
+        <span>01-52443045456, 01-5245545006</span>
+      </div>
+      <div class="page-title">
+        <h1>About Us</h1>
+        <h6>
+          <a href="index.html"> Home</a>
+          <i class="fas fa-chevron-right"></i> About
+        </h6>
+      </div>
+    </div>
+    <!-- page-banner-end -->
+
+    <!-- about-page-start -->
+    <div class="wrapper">
+      <div class="about-page">
+        <div class="image">
+          <div
+            class="img"
+            style="background-image: url(./images/img/about-page.jpg)"
+          ></div>
+        </div>
+        <div class="details">
+          <div class="title">
+            <h4>LEARN ANYTHING</h4>
+            <h2>WELCOME TO SCHOOL</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor qui cumque eveniet sapiente cum, facilis quisquam, deserunt excepturi quos sunt suscipit facere quae praesentium unde illo harum, quis nulla perspiciatis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate consectetur cumque ea facere tenetur ratione commodi nam, odit reiciendis dolor minus, mollitia illum ipsa, harum placeat nostrum nihil eaque sunt qui. Ab, dolores veritatis? Quis, ducimus eligendi? Consequuntur, quam aspernatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, accusantium recusandae voluptas est nobis ducimus vero aliquid commodi quisquam fugiat maxime aliquam officia iusto! Dolores quia repellendus illum et perferendis corrupti, tempore sed aut omnis explicabo nisi aliquid rem alias.
+          </p>
+          <h4>Our Vision</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero provident debitis maiores harum ipsa perferendis molestias officia omnis eaque suscipit. Minus accusamus error perspiciatis. Explicabo placeat quasi, nam consectetur similique tenetur alias voluptatibus iusto! Nostrum perspiciatis accusantium ad sapiente ex?
+          </p>
+          <h4>Our Mission</h4>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quam enim quasi quo fugiat reprehenderit dolorem eos harum, amet dolores odit repellat, hic ex quos, vitae animi. Odio, illum possimus.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus cum officiis odit atque consectetur nesciunt id eaque suscipit provident fugit sit, sapiente a nisi quod vitae libero officia, ipsa deserunt?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium obcaecati sed distinctio temporibus? Praesentium eaque laborum iste expedita accusamus, dolorum consequatur asperiores adipisci impedit ab! Cumque temporibus mollitia asperiores exercitationem.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- about-page-end -->
+
+    <!-- learning-approaches-start -->
+    <section>
+      <div class="wrapper">
+        <div class="learning-approaches">
+          <div class="title">
+            <h2>Learning Approaches</h2>
+          </div>
+
+          <div class="list">
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/blackboard.svg" alt="" />
+              </div>
+              <div class="name">Class Partipation</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/group.svg" alt="" />
+              </div>
+              <div class="name">Group Discussion</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/group-work.svg" alt="" />
+              </div>
+              <div class="name">Pair/Group Work</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/thinking.svg" alt="" />
+              </div>
+              <div class="name">Quiz</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/paper-writing.svg" alt="" />
+              </div>
+              <div class="name">Term Paper Writing</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/lecture.svg" alt="" />
+              </div>
+              <div class="name">Guest Lectures</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/pie-chart.svg" alt="" />
+              </div>
+              <div class="name">Individual/Group Presentations</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/monitor.svg" alt="" />
+              </div>
+              <div class="name">Audio/Visual Tutorials</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/project.svg" alt="" />
+              </div>
+              <div class="name">Project/Research Work/Case Study</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/report.svg" alt="" />
+              </div>
+              <div class="name">Report Writing</div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/street-sign.svg" alt="" />
+              </div>
+              <div class="name">Fieldwork</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/maps-and-flags.svg" alt="" />
+              </div>
+              <div class="name">Internships at Corporate Houses</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- learning-approaches-end -->
+
+    <!-- core-comperencies-start -->
+    <section>
+      <div class="wrapper">
+        <div class="core-comperencies">
+          <div class="title">
+            <h2>CORE COMPETENCIES</h2>
+          </div>
+
+          <div class="list">
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/paper-writing.svg" alt="" />
+              </div>
+              <div class="name">Written & Oral Communication</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/medal.svg" alt="" />
+              </div>
+              <div class="name">Interpersonal Skills</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/thinking.svg" alt="" />
+              </div>
+              <div class="name">Critical Thinking</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/search.svg" alt="" />
+              </div>
+              <div class="name">Research and Analysis</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/book.svg" alt="" />
+              </div>
+              <div class="name">Information Literacy</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/ruler.svg" alt="" />
+              </div>
+              <div class="name">Quantitative Reasoning</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/project.svg" alt="" />
+              </div>
+              <div class="name">Reflective</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/rocket.svg" alt="" />
+              </div>
+              <div class="name">Innovation</div>
+            </div>
+
+            <div class="item">
+              <div class="icon">
+                <img src="./images/icons/group.svg" alt="" />
+              </div>
+              <div class="name">Team Work and Leadership</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- core-comperencies-end -->
+
+    <!-- teams-start -->
+    <section class="bg">
+      <div class="wrapper">
+        <div class="teams">
+          <div class="title">
+            <h4>Teachers</h4>
+            <h2>Our Teams</h2>
+          </div>
+
+          <div class="list">
+            <div class="swiper-container mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="image">
+                      <div
+                        class="img"
+                        style="background-image: url(./images/img/profile.jpeg)"
+                      ></div>
+                    </div>
+                    <div class="details">
+                      <div class="name">Monkey King</div>
+                      <div class="info">Developer</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="image">
+                      <div
+                        class="img"
+                        style="
+                          background-image: url(./images/img/profile1.jpeg);
+                        "
+                      ></div>
+                    </div>
+                    <div class="details">
+                      <div class="name">Cristal Median</div>
+                      <div class="info">Review</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="image">
+                      <div
+                        class="img"
+                        style="
+                          background-image: url(./images/img/profile2.jpeg);
+                        "
+                      ></div>
+                    </div>
+                    <div class="details">
+                      <div class="name">Medusa</div>
+                      <div class="info">Manager</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="image">
+                      <div
+                        class="img"
+                        style="
+                          background-image: url(./images/img/profile3.jpeg);
+                        "
+                      ></div>
+                    </div>
+                    <div class="details">
+                      <div class="name">Panthom Assassin</div>
+                      <div class="info">CEO</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="image">
+                      <div
+                        class="img"
+                        style="
+                          background-image: url(./images/img/profile4.jpeg);
+                        "
+                      ></div>
+                    </div>
+                    <div class="details">
+                      <div class="name">Lina</div>
+                      <div class="info">Designer</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <div class="image">
+                      <div
+                        class="img"
+                        style="
+                          background-image: url(./images/img/profile5.jpeg);
+                        "
+                      ></div>
+                    </div>
+                    <div class="details">
+                      <div class="name">Outworld Devourer</div>
+                      <div class="info">UI/UX</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- teams-end -->
+
+        <!-- testimonials-start -->
+        <section class="bg">
+          <div class="wrapper">
+            <div class="testimonials">
+              <div class="title">
+                <h4>TESTIMONIALS</h4>
+                <h2>Our Successful Students</h2>
+              </div>
+    
+              <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div
+                        class="image"
+                        style="background-image: url(./images/img/profile1.jpeg)"
+                      ></div>
+                      <div class="details">
+                        <h3 class="name">Naruto Uzumaki</h3>
+                        <h4>Management</h4>
+    
+                        <div class="desc">
+                          <div class="quet-start">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                          </p>
+                          <div class="quet-end">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div
+                        class="image"
+                        style="background-image: url(./images/img/profile2.jpeg)"
+                      ></div>
+                      <div class="details">
+                        <h3 class="name">Naruto Uzumaki</h3>
+                        <h4>Management</h4>
+    
+                        <div class="desc">
+                          <div class="quet-start">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                          </p>
+                          <div class="quet-end">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div
+                        class="image"
+                        style="background-image: url(./images/img/profile3.jpeg)"
+                      ></div>
+                      <div class="details">
+                        <h3 class="name">Naruto Uzumaki</h3>
+                        <h4>Management</h4>
+    
+                        <div class="desc">
+                          <div class="quet-start">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                          </p>
+                          <div class="quet-end">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div
+                        class="image"
+                        style="background-image: url(./images/img/profile.jpeg)"
+                      ></div>
+                      <div class="details">
+                        <h3 class="name">Naruto Uzumaki</h3>
+                        <h4>Management</h4>
+    
+                        <div class="desc">
+                          <div class="quet-start">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                          </p>
+                          <div class="quet-end">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div
+                        class="image"
+                        style="background-image: url(./images/img/profile4.jpeg)"
+                      ></div>
+                      <div class="details">
+                        <h3 class="name">Naruto Uzumaki</h3>
+                        <h4>Management</h4>
+    
+                        <div class="desc">
+                          <div class="quet-start">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore labore excepturi perspiciatis molestiae eos iusto officia dolore, beatae magni facere culpa dolor accusantium nisi natus fuga suscipit deleniti distinctio architecto nesciunt quas mollitia exercitationem temporibus. Assumenda saepe explicabo consectetur quas tenetur in. Eum sequi quisquam esse officia, doloremque praesentium.
+                          </p>
+                          <div class="quet-end">
+                            <img
+                              src="./images/icons/bx_bxs-quote-alt-left.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- testimonials-end -->
+            <!-- footer-start -->
+    <footer>
+      <div class="wrapper">
+        <div class="list">
+          <div class="item">
+            <h2>CONTACT</h2>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> London, Kathmandu 44600
+              </li>
+              <li><i class="fas fa-phone-alt"></i> 01-524434406, 01-52485406</li>
+              <li><i class="fas fa-envelope"></i> info@school.edu</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Quick Links</h2>
+            <ul>
+              <a href="about-us.html">
+                <li>About Us</li>
+              </a>
+              <a href="blog.html">
+                <li>Blog</li>
+              </a>
+              <a href="contact.html">
+                <li>Contact</li>
+              </a>
+              <a href="service.html">
+                <li>Services</li>
+              </a>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Resources</h2>
+            <ul>
+              <li>Nanodegree Plus</li>
+              <li>Veterans</li>
+              <li>Georgia</li>
+              <li>Self-Driving Car</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Newsletter</h2>
+            <div class="details">
+              <p>You can trust us. we only send promo offers,</p>
+              <div class="group">
+                <form action="">
+                  <input
+                    type="email"
+                    placeholder="Your Email Address"
+                    required
+                  />
+                  <button>
+                    <img src="./images/icons/send-button.svg" alt="" />
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© 2023</div>
+      <div class="copyright">Developed by Pankaj Kushwaha.</div>
+    </footer>
+    <!-- footer-end -->
+
+    <!-- mobile-navigate-btns-start -->
+    <div class="mobile-navigate-btns">
+      <div class="icon">
+        <a href="index.html">
+          <img src="./images/icons/home.svg" alt="Home" />
+        </a>
+      </div>
+
+      <div class="icon" id="admission-btn">
+        <img src="./images/icons/admission.svg" alt="Admission" />
+      </div>
+
+      <div class="icon" id="enquiry">
+        <img
+          src="./images/icons/speech-bubble-with-question-mark.svg"
+          alt="Enquiry"
+        />
+      </div>
+    </div>
+    <!-- mobile-navigate-btns-end -->
+
+    <!-- js -->
+    <script src="./js/nav.js"></script>
+    <script src="./js/enquiry.js"></script>
+
+    <!-- swiper -->
+    <script src="./js/swiper.min.js"></script>
+
+    <script>
+      // teams
+      var swiper = new Swiper(".teams .mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        },
+      });
+
+      /// testimonials
+      var swiper = new Swiper(".testimonials .mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1150: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
