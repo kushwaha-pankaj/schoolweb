@@ -1,4 +1,4 @@
 # schoolweb
 
 Visit live from here:
-education.github.io/schoolweb
+https://kushwaha-pankaj.github.io/schoolweb/
